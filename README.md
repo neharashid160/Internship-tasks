@@ -1,5 +1,5 @@
 # Internship-tasks
-Health & Mental Health Chatbot
+Health & Mental Health Chatbottask 4 and 5 
 
 A simple and interactive chatbot built using Python and Streamlit that provides basic guidance on health and mental well-being. This project aims to create awareness and offer supportive responses based on user input.
 
@@ -55,5 +55,9 @@ If you want, I can also:
 
 customize it according to your actual code
 add badges (GitHub style)
+
+TASK 3 
+heart disease 
+medial data
 or 
 make a very attractive professional README (with images & UI preview)
