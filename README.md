@@ -21,11 +21,7 @@ Dataset (CSV / JSON)
 ├── model.py (optional) # Logic or ML model
 ├── requirements.txt    # Required libraries
 └── README.md           # Project documentation
-⚙️ Installation & Setup
-Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install dependencies
+
 pip install -r requirements.txt
 Run the Streamlit app
 streamlit run app.py
