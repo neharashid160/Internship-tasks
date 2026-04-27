@@ -43,14 +43,7 @@ If you are experiencing serious health or mental health issues, please consult a
 
 neha rashid
 
-⭐ Contribute
 
-Contributions are welcome! Feel free to fork this repo and submit a pull request.
-
-If you want, I can also:
-
-customize it according to your actual code
-add badges (GitHub style)
 
 TASK 3 
 heart disease 
