@@ -1,52 +1,79 @@
-# Internship-tasks
-Health & Mental Health Chatbottask 4 and 5 
+# 🤖 AI/ML Engineering Internship Tasks
 
-A simple and interactive chatbot built using Python and Streamlit that provides basic guidance on health and mental well-being. This project aims to create awareness and offer supportive responses based on user input.
+This repository contains completed tasks for the AI/ML Engineering Internship program.
 
-🚀 Features
-💬 Chat-based interface
-🧠 Mental health support responses
-🏥 General health-related guidance
-⚡ Fast and interactive UI using Streamlit
-📊 Uses dataset for response generation
-🔄 Real-time user interaction
-🛠️ Technologies Used
-Python
-Streamlit
-Natural Language Processing (NLP)
-Dataset (CSV / JSON)
-📂 Project Structure
-├── app.py              # Main Streamlit application
-├── dataset.csv/json   # Chatbot training dataset
-├── model.py (optional) # Logic or ML model
-├── requirements.txt    # Required libraries
-└── README.md           # Project documentation
+---
 
+## ✅ Completed Tasks
+
+| # | Task | Tech Stack | Status |
+|---|------|-----------|--------|
+| 1 | News Topic Classifier using BERT | PyTorch, Hugging Face, Gradio | ✅ Done |
+| 2 | End-to-End ML Pipeline (Customer Churn) | Scikit-learn, joblib | ✅ Done |
+| 5 | Auto-Tagging Support Tickets using LLM | OpenAI API, Prompt Engineering | ✅ Done |
+
+---
+
+## 📁 Repository Structure
+
+```
+ai-ml-internship/
+├── task1_bert_classifier/
+│   ├── news_classifier.py     ← Main script
+│   ├── requirements.txt
+│   └── README.md
+│
+├── task2_ml_pipeline/
+│   ├── pipeline.py            ← Main script
+│   ├── requirements.txt
+│   └── README.md
+│
+└── task5_auto_tagging/
+    ├── auto_tagger.py         ← Main script
+    ├── requirements.txt
+    └── README.md
+```
+
+---
+
+## 🚀 Quick Start
+
+### Task 1 — BERT News Classifier
+```bash
+cd task1_bert_classifier
 pip install -r requirements.txt
-Run the Streamlit app
-streamlit run app.py
-💡 How It Works
-User enters a query in the chat interface
-The chatbot processes input using predefined logic or dataset
-It returns a relevant response related to health or mental health
-⚠️ Disclaimer
+python news_classifier.py
+```
 
-This chatbot is not a replacement for professional medical advice.
-If you are experiencing serious health or mental health issues, please consult a qualified doctor or professional.
+### Task 2 — ML Pipeline (Customer Churn)
+```bash
+cd task2_ml_pipeline
+pip install -r requirements.txt
+python pipeline.py
+```
 
-📌 Future Improvements
-🤖 Integration with AI models (like OpenAI API)
-🌐 Deployment on cloud (Streamlit Cloud / Heroku)
-📱 Mobile-friendly UI
-🧾 More advanced dataset & training
-👨‍💻 Author
+### Task 5 — Auto-Tag Support Tickets
+```bash
+cd task5_auto_tagging
+pip install -r requirements.txt
 
-neha rashid
+# Demo mode (no API key needed):
+python auto_tagger.py
 
+# With OpenAI:
+export OPENAI_API_KEY="sk-your-key"
+python auto_tagger.py
+```
 
+---
 
-TASK 3 
-heart disease 
-medial data
-or 
-make a very attractive professional README (with images & UI preview)
+## 🛠️ Skills Demonstrated
+
+- NLP with Transformers (BERT fine-tuning)
+- Transfer learning & few-shot learning
+- Scikit-learn Pipeline API
+- Hyperparameter tuning with GridSearchCV
+- Model export and reusability (joblib)
+- Prompt engineering (zero-shot & few-shot)
+- LLM-based text classification
+- Production-readiness practices
